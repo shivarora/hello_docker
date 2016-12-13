@@ -15,5 +15,4 @@ RUN mv /apps/html/nginx.conf /etc/nginx/nginx.conf
 WORKDIR /apps/html
 
 EXPOSE 8888
-
 CMD ["nginx"]
